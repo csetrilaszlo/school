@@ -41,7 +41,11 @@ setTimeout(function(){
 }, 1);
 
 
-setInterval(function(){
+const pingReference = setInterval(function(){
     console.log("ping");
 }, 1000);
 
+ //pt a opri
+document.getElementById('stop-ping').addEventListener('click', function(){
+    clearInterval(pingReference);
+});
