@@ -1,18 +1,17 @@
 console.log('JavaScript - AJAX');
+console.log('CRUD Operation - Read');
 
 const articleListHtml = document.querySelector('.article-list');
 
-document.getElementById('get-data').addEventListener('click', function(){
-console.log('Before Fetch');
+document.getElementById('get-data').addEventListener('click', getData);
 
-fetch("https://simple-json-server-scit.herokuapp.com/posts")
+function getData(){
+    fetch("https://simple-json-server-scit.herokuapp.com/posts")
     .then(handleFetchResponse)
     .then(useJSONResponse);
 
 console.log('After Fetch');
-});
-
-
+}
 
 function handleFetchResponse(response) {
     console.log('response', response);
