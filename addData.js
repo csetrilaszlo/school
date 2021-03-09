@@ -1,16 +1,15 @@
 console.log('CRUD Operation - Create');
 console.log('CreateReadUpdateDelete - CRUD');
 
+
 document.getElementById('add-article-button').addEventListener('click', function(){ 
      const articleTitle = document.getElementById('article-title').value;
     console.log('articleTitle', articleTitle);
 
     const articleContent = document.getElementById('article-content').value;
     console.log('articleContent', articleContent);
+
     if(articleTitle && articleContent){
-
-       
-
     const payload = {
         title : articleTitle,
         content : articleContent
