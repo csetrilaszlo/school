@@ -1,0 +1,21 @@
+.ship{
+    height: 50px;
+    display: block;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+} 
+
+.ship--start {
+    
+}
+
+
+#starShip {
+   display: block;
+}
+
+.clicked {
+   display: flex;
+}
