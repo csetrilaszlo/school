@@ -11,7 +11,7 @@ let userExist = false;
 getToDoData((json) => {
   console.log(json);
 
-  if (json.id === "sradusi") {
+  if (json.id === "lcsetri") {
     todo = json.todo;
     userExist = true;
     createToDoItemList(json.todo);
