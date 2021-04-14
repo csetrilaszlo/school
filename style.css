@@ -43,3 +43,16 @@ p{
     display: flex;
     align-items: center;
 }
+
+.remove-button{
+    height: 20px;
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+}
+
+.todo-item > * {
+    margin: 10px;
+}
