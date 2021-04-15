@@ -1,10 +1,20 @@
+import { SetLocalStorage } from "./localStorage";
+
+
+
+
 console.log("JavaScript - Dogs App");
+
+
+
 
 if (!localStorage.getItem("name") || !localStorage.getItem("password")) {
   window.location = "/login.html";
+  console.log('Working');
 }
+
 //Getting the data 
-async function getItem(){
+export async function getItem(){
   const one = document.getElementById('image-dog');
   const response = await fetch('https://dog.ceo/api/breeds/list/all');
   const data = await response.json();
@@ -15,7 +25,7 @@ async function getItem(){
         const p = document.createElement('button');
         
         
-        p.addEventListener('click', async function()  {
+        p.addEventListener('click', async function engine()  {
           document.getElementById('page-number').innerText = '1';
           p.setAttribute('id', 'current'); 
           let j = 0;
@@ -66,15 +76,16 @@ async function getItem(){
               }
               
             })
+            SetLocalStorage();
             //Setting the actual breed, index number to local storage
-            function SetLocalStorage(){
-            const breed = `${i}`;
-            const index = `${a}`;
-            localStorage.setItem("breed", `${i}`);
-            localStorage.setItem("index", `${a}`);
-            }  
+            // function SetLocalStorage(){
+            // const breed = `${i}`;
+            // const index = `${a}`;
+            // localStorage.setItem("breed", `${i}`);
+            // localStorage.setItem("index", `${a}`);
+            // }  
             
-               document.getElementById('breed-image').src = `${images}`;
+                document.getElementById('breed-image').src = `${images}`;
               
             }
           
@@ -87,7 +98,7 @@ async function getItem(){
      
         div.appendChild(p);
         breeds.appendChild(div);
-        p.innerText = i;
+        p.innerText = i; 
     }
 }
 getItem();
