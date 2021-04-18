@@ -1,4 +1,4 @@
-export function handleLogin() {
+document.getElementById('login').addEventListener('click', function handleLogin() {
     const inputName = document.getElementById("name");
     const inputPassword = document.getElementById("password");
     const PASSWORD_CHECK = "123";
@@ -10,4 +10,7 @@ export function handleLogin() {
     localStorage.setItem("password", password);
     window.location = "/";
   }
-};
+  
+ 
+}
+);
