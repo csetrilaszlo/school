@@ -1,26 +1,24 @@
-import { login } from "./utils/login";
-// import { ifLocal } from "./utils/indexOld";
-import { getItem } from "./utils/indexOld";
-// import { SetLocalStorage } from "./utils/localStorage.js";
-
-console.log("In index");
+import { getItem } from "./utils/app";
+import { handleLogin } from "./utils/handleLogin";
+import { logout } from "./utils/logout";
 
 
 
-// const inputName = document.getElementById("name");
-// const inputPassword = document.getElementById("password");
-// const PASSWORD_CHECK = "123";
+let clickLogin = document.getElementById('login');
+if(clickLogin){
+  clickLogin.addEventListener('click', handleLogin, false);
+ 
+}
 
- login();
 
-// document.getElementById("login").addEventListener("click", () => {
-//     const name = inputName.value;
-//     const password = inputPassword.value;
+let clickLogout = document.getElementById('logout');
+if(clickLogout){
+  clickLogout.addEventListener('click', logout, false);
+ 
+}
+ 
+
+getItem();
   
-//     if (name && password === PASSWORD_CHECK) {
-//       localStorage.setItem("name", name);
-//       localStorage.setItem("password", password);
-//       window.location = "/";
-//     }
-  
-// }
+
+
