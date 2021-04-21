@@ -1,0 +1,13 @@
+.app-menu-flyout{
+    background: white;
+    color: black;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-top: -12px;
+    border-radius: 3px;
+    padding-left: 10px;
+    box-shadow: 8px 7px 14px 1px rgba(0,0,0,0.75);
+    width: 60px;
+
+    
+}
