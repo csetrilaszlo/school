@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="App" id="app">
       <Header />
-      <ToDoList />  
+      <ToDoList 
+      key={false}
+      />  
        
     </div>
   );
