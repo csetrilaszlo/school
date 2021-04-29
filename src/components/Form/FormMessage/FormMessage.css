@@ -1,18 +1,5 @@
-.contact-form-field {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-  }
-  
-  
-.contact-form-field textarea {
+.text-area {
     width: 300px;
     height: 300px;
     padding: 5px;
-  }
-
-  .input-field--selected{
-    border: 2px solid red;
-    
-  }  
-  
+}

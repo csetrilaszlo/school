@@ -1,10 +1,11 @@
 import './FormMessage.css';
+ 
 
- export function FormMessage(){
+export  function FormMessageOne(props){
      return(
          <div className="contact-form-field">
-             <p>MESSAGE</p>
-             <textarea className="input-field"/>
+             <p>{props.name}</p>
+             <textarea  onChange={(event)=>props.handleChange(event,props.id)} type='textbox' className="input-field" className='text-area'/>
          </div>
      )
  }
