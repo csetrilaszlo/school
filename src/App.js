@@ -1,20 +1,26 @@
 import React from 'react';
 import { Header } from "./components/Header/Header";
-import { ToDoList } from './components/ToDoList/ToDoList';
-
+import { Home } from "./pages/Home/Home";
+import { About } from "./pages/About/About";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
-
 function App() {
   return (
-    <div className="App" id="app">
-      <Header />
-      <ToDoList 
-      key={false}
-      />  
-       
-    </div>
+    <Router>
+      <div className="App" id="app">
+        <Header />
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

@@ -5,3 +5,12 @@
     display: flex;
     align-items: center;
 }
+.navigation {
+    display: flex;
+    margin-left: auto;
+}
+
+.navigation a {
+    margin: 10px;
+    text-decoration: none;
+}
