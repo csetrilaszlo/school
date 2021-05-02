@@ -3,11 +3,13 @@ import './SuccessMessage.css';
 
 
 
- export function SuccessMessage(){
+ export function SuccessMessage(props){
      return(
-         <div>
+         <div className="success-message">
           
-             <p className="success-message">MESSAGE SENT!</p>
+             <p >MESSAGE SENT!</p>
+             <button onClick={props.close}
+             >X</button>
          </div>
      )
  }

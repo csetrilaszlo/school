@@ -1,5 +1,5 @@
-.text-area {
+.contact-form-field textarea {
     width: 300px;
-    height: 300px;
+    height: 150px;
     padding: 5px;
 }
