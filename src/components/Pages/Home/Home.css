@@ -1,0 +1,167 @@
+
+
+.container {
+    margin-top: -101px;
+    max-width: 1200px;
+    
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    gap: 16px;
+   
+}
+
+
+.section {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pattern-big {
+    min-width: 18rem;
+    max-width: 15rem;
+}
+.text {
+    color: black;
+    text-align: left;
+    flex-direction: column;
+   
+}
+
+.me {
+    border-radius: 8px;
+    width: 14rem;
+    
+    
+}
+
+
+
+h1 {
+    font-size: 3.998rem;
+    margin-bottom: 32px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+}
+
+.text-paragraph {
+    line-height: 1.7;
+    font-size: 2rem;
+    color: gray;
+    max-width: 410px;
+    margin-bottom: 8px;
+    text-align: left;
+    
+}
+
+#get-in-touch {
+    
+    font-weight: 400;
+    
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 20px;
+}
+
+
+#get-in-touch:hover {
+    opacity: 80%;
+}
+
+.btn-lg {
+    font-size: 1.125rem;
+    padding: 13px 39px;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background: black;
+    cursor: pointer;
+    box-shadow: 0 15px 30px -10px rgb(0 0 0 / 20%);
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container img {
+    max-width: 475px;
+    justify-self: end;
+    
+}
+.container-link {
+    display: absolute;
+    
+}
+
+.links {
+    display: relative;
+    display: inline;
+    width: 35px;
+    margin-right: 40px;
+}
+.links:hover {
+    opacity: 80%;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        margin-top: 10px;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        max-width: 1000px;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 0 50px;
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        display: flex;
+        align-items: center;
+    }
+    .me {
+        display: flex;
+        align-items: center;
+    }
+    .text h1 {
+        display: flex;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,53 @@
+.container-about {
+    
+    margin-top: -100px;
+    padding: 0;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-showcase h1 {
+    color: black;
+    font-size: 3.998rem;
+    margin-bottom: 32px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+}
+
+#text-about {
+    font-size: 25px;   
+}
+
+h5 {
+    color: gray;
+}
+
+.patternpad15 {
+    min-width: 22rem;
+    max-width: 29rem;
+}
