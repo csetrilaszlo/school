@@ -1,4 +1,3 @@
-import "./App.css";
 import { NavBar } from "./components/NavBar/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { About } from "./components/Pages/About/About";
@@ -7,7 +6,7 @@ import { Contact } from "./components/Pages/Contact/Contact";
 import { Resume } from "./components/Pages/Resume/Resume";
 import { Home } from "./components/Pages/Home/Home";
 
-
+import "./App.css";
 function App() {
   return (
     <>

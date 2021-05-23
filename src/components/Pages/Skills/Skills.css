@@ -1,0 +1,151 @@
+.skills-section {
+    background: #f0f5f4;
+    
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-skills{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 8px;
+
+}
+
+.patternpad44 {
+    width: 140px;
+    
+}
+
+.skills-section h5 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.card div h3 {
+    color: black;
+    font-size: 33px;
+    
+
+}
+
+.card div ul li {
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;   
+}
+
+.card-item{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.card div ul li {
+    margin-bottom: 20px;
+}
+
+.card img {
+   margin-left: 45px;
+   width: 120px;
+   
+    
+
+}
+.big-skills-div {
+    margin-top: -100px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .container-skills {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        justify-content: center;
+        align-items: center;
+        
+        
+
+        
+    }
+
+    .card {
+        display: flex;
+        box-sizing: border-box;
+       flex-direction: row;
+       justify-content: flex-start;
+       align-items: center;
+       text-align: left; 
+       height: 210px;
+       width: 550px;
+       
+    }
+    .container-skills h3 {
+        border-bottom: none;
+        padding-bottom: 0;
+        
+    }
+    .container-skills ul{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    
+    .container-skills ul li {
+        margin-right: 10px;
+        
+    }
+
+    .card div ul li {
+        font-size: 18px;
+    }
+
+    .patternpad44 {
+        width: 60px;
+        margin-right: 10px; 
+    }
+}
+
+@media screen and (max-width: 540px) {
+    
+    .card {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .card div h3 {
+        font-size: 15px;
+    }
+    .card div ul li {
+        font-size: 10px;
+    }
+    .patternpad44 {
+        width: 20px;
+    }
+
+    
+    
+}

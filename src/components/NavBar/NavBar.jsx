@@ -22,23 +22,23 @@ export function NavBar(){
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     
                     <li className='nav-item'>
-                    <NavLink exact to= '/about' activeClassName='active' className='nav-links' onClick={handleClick}>
-                    About
+                        <NavLink exact to= '/about' activeClassName='active' className='nav-links' onClick={handleClick}>
+                            About
                     </NavLink>
                     </li>
                     <li className='nav-item'>
-                    <NavLink exact to= '/skills' activeClassName='active' className='nav-links' onClick={handleClick}>
-                    Skills
+                        <NavLink exact to= '/skills' activeClassName='active' className='nav-links' onClick={handleClick}>
+                            Skills
                     </NavLink>
                     </li>
                     <li className='nav-item'>
-                    <NavLink exact to= '/contact' activeClassName='active' className='nav-links' onClick={handleClick}>
-                    Contact
+                        <NavLink exact to= '/contact' activeClassName='active' className='nav-links' onClick={handleClick}>
+                            Contact
                     </NavLink>
                     </li>
                     <li className='resume-item'>
-                    <NavLink exact to= '/' activeClassName='active' id='resume-link' onClick={handleClick}>
-                    Résumé
+                        <NavLink exact to= 'resume' activeClassName='active' id='resume-link' onClick={handleClick}>
+                            Résumé
                     </NavLink>
                     </li>
                 </ul>

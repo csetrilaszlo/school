@@ -5,7 +5,7 @@ import github from './github.svg';
 import linkedin from './linkedin.svg';
 
 
-import me from './me.jpg';
+
 
 import './Home.css';
 
