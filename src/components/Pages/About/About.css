@@ -1,5 +1,5 @@
 .container-about {
-    
+    margin-left: 0px;
     margin-top: -100px;
     padding: 0;
     display: flex;
@@ -9,9 +9,11 @@
     
 }
 
+
+
 .about-grid {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1100px;
+    margin: 0;
     padding: 0 50px;
     height: 100%;
     width: 100%;
@@ -21,6 +23,7 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
+   
     
 }
 
@@ -47,7 +50,41 @@ h5 {
     color: gray;
 }
 
-.patternpad15 {
+.patternpad12 {
+    min-width: 18rem;
+    max-width: 15rem;
+}
+
+.me {
     min-width: 22rem;
     max-width: 29rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    letter-spacing: 1rem;
+}
+
+#about-text {
+    color: black;
+    font-size: 2rem;
+    
+}
+@media screen and (max-width: 960px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-showcase {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .patternpad12 { 
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+
+}
 }

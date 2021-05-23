@@ -15,11 +15,11 @@ export function Home() {
         <div className='section'>
         <div className = 'container'>
             <div className='text'>
-                <img src={me} alt='Csetri Laszlo' className='me'/>
                 
-                <h1>Hi I am Laszlo.</h1>
                 
-                <p className='text-paragraph'>Junior Front-End Developer</p>
+                <h1>Hi I`m Laszlo.</h1>
+                
+                <p className='text-paragraph'>I'm a software developer passionate about front end development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
                 <a href='../Contact/Contact' className='btn btn-lg' id='get-in-touch'>
                     Get in Touch
                     <i className='fas fa arrow-right'></i>
