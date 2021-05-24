@@ -10,7 +10,7 @@ export function NavBar(){
     return(
         
 
-
+        
         <div className='navbar'>
             <div className='nav-container'>
                 <NavLink exact to= '/' className='nav-logo'>

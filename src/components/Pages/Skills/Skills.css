@@ -75,23 +75,100 @@
 
 }
 .big-skills-div {
+    margin-top: -130px;
+}
+
+.big-skills-div h5 {
+    position: absolute;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+.education-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 20px;
+
+}
+.education-card p{
+    color: gray;
+    font-size: 18px;
+}
+.education-card h6{
+    color: black;
+    font-size: 25px;
+}
+
+.education-img {
+    width: 300px;
+}
+
+.scoalainformala-img {
+    width: 220px;
+}
+#education-h5 {
     margin-top: -100px;
 }
 
+.education-card div {
+    border-left: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+#scoala-1{
+    
+    padding-left: 18px;
+}
+#scoala-1-div{
+    margin-left: 68px;
+}
+#scoala-2{
+    
+    padding-left: 34px;
+}
+#scoala-2-div{
+    margin-left: 65px;
+}
+
+
 @media screen and (max-width: 960px) {
 
+    .education-img, .scoalainformala-img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .education-card{
+        display: block;
+        align-items: center;
+        justify-self: center;
+    }
+    .education-card div {
+        border-left: none;
+       
+    }
     .container-skills {
         display: grid;
         grid-template-columns: 1fr;
         
         justify-content: center;
-        align-items: center;
-        
-        
-
-        
+        align-items: center; 
     }
 
+    .big-skills-div h5 {
+        
+        width: 100%;
+        margin-top: 70px;
+    }
     .card {
         display: flex;
         box-sizing: border-box;
