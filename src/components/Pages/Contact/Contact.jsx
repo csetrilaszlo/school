@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import patternpadcontact from './patternpadcontact.svg';
 import patternpad9 from './patternpad9.svg';
 import phone from './phone.svg';
 import github from '../Home/github.svg';
 import linkedin from '../Home/linkedin.svg';
-import email from '../Home/email.svg';
+import mail from '../Home/email.svg';
 
 
 import './Contact.css';
 export function Contact() {
+    const [name, setname] = useState('');
+    const [email, setemail] = useState('');
+    const [message, setmessage] = useState('');
+
+    function SubmitButton(){
+        if (name && email && message){
+          return <a href='mailto:csetrilaszlo@gmail.com' className='submit-button'>Submit</a>
+        } else {
+          return <a  className='submit-disabled' disabled>Submit</a>
+        };
+      };
     return(
         <div className='contact'>
             <div className='contact-div'>
@@ -24,7 +36,7 @@ export function Contact() {
           <ul>
             <li>
               <a href="mailto: csetrilaszlo@gmail.com" className='contact-item'>
-                  <img src={email} alt='email' />
+                  <img src={mail} alt='email' />
                   <span>csetrilaszlo@gmail.com</span>
               </a>
             </li>
@@ -51,6 +63,23 @@ export function Contact() {
 
         
     </div>
+    <div className='contact-big-div'>
+        <div className='input-section'>
+            <p>Get in Touch</p>
+            
+                <input type='text' placeholder='*Name' id='name-item' required className='input-item' value={name} onChange={ e => setname(e.target.value)}/>
+                <input type='text'  placeholder='*Email' required className='input-item' value={email} onChange={ e => setemail(e.target.value)}/>
+                <textarea required placeholder='*Message' value={message} onChange={ e => setmessage(e.target.value)}></textarea>
+                <SubmitButton />
+            {/* <a href='mailto:csetrilaszlo@gmail.com' className='submit-button'>Submit</a> */}
+        </div>
+        <div className='contact-pattern-image' id='input-image'>
+            <img src={patternpadcontact} alt="pattern" className='patternpad9' />
+        </div>
+        
+    </div>
+        
+        
         <footer>
             <p>© Csetri Laszlo 2021</p>
         </footer>

@@ -90,6 +90,12 @@ export function Skills() {
                     </div>
                 </div>
             </div>
+            <div id='footer-skills'>
+                <footer>
+                    <p>© Csetri Laszlo 2021</p>
+                </footer>  
+            </div>
+            
         </div>
     )
 }

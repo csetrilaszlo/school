@@ -138,10 +138,24 @@
 #scoala-2-div{
     margin-left: 65px;
 }
-
+.education-section {
+    margin-bottom: 8rem;
+} 
+#footer-skills {
+    position: absolute;
+    width: 100%;
+    margin-top: -400px;
+    
+} 
 
 @media screen and (max-width: 960px) {
 
+    #footer-skills {
+        position: absolute;
+        width: 100%;
+        margin-top: -1400px;
+        
+    } 
     .education-img, .scoalainformala-img {
         display: block;
         margin-right: auto;
