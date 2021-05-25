@@ -1,7 +1,7 @@
 
 
 .container {
-    margin-top: -95px;
+    margin-top: -55px;
     max-width: 1200px;
     
     padding: 0 50px;
@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 140px;
 }
 
 .pattern-big {
@@ -59,6 +60,7 @@ h1 {
     max-width: 410px;
     margin-bottom: 8px;
     text-align: left;
+   
     
 }
 
@@ -67,6 +69,7 @@ h1 {
     text-decoration: none;
     padding: 15px 50px;
     font-size: 20px;
+    
 }
 
 
@@ -162,4 +165,126 @@ img {
         text-align: center;
     }
 
+}
+
+
+#footer-home {
+    position: absolute;
+    margin-top: -350px;
+    width: 100%;
+}
+
+
+
+.container-about {
+    
+    margin-left: 0px;
+    margin-top: -50px;
+    padding: 0;
+    display: flex;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.web-developer {
+    color: black;
+    font-size: 34px;
+}
+
+
+.about-grid {
+    max-width: 1100px;
+    margin-bottom: 90px;
+    
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.about-showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-showcase h1 {
+    color: black;
+    font-size: 3.998rem;
+    margin-bottom: 32px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+}
+
+
+h5 {
+    color: black;
+}
+
+.patternpad12 {
+    min-width: 25rem;
+    max-width: 28rem;
+}
+
+.me {
+    min-width: 22rem;
+    max-width: 29rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    letter-spacing: 1rem;
+    
+}
+.me:hover{
+    
+    will-change: transform;
+    transform: perspective(29rem) 
+               rotateX(10deg) 
+               rotateY(10deg);
+    transition: 0.3s ease;
+}
+
+
+#about-text {
+    color: black;
+    font-size: 2rem;
+    
+}
+
+h4{
+    color: black;
+}
+
+#text-hobbies{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 960px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-showcase {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .patternpad12 { 
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+
+}
 }

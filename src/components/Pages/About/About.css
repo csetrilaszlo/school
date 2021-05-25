@@ -62,7 +62,17 @@ h5 {
     margin-right: auto;
     width: 50%;
     letter-spacing: 1rem;
+    
 }
+.me:hover{
+    
+    will-change: transform;
+    transform: perspective(29rem) 
+               rotateX(10deg) 
+               rotateY(10deg);
+    transition: 0.3s ease;
+}
+
 
 #about-text {
     color: black;

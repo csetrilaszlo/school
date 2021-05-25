@@ -3,6 +3,8 @@ import pattern16 from './patternpad16.svg';
 import email from './email.svg';
 import github from './github.svg';
 import linkedin from './linkedin.svg';
+import me from './me.jpg';
+import patternpad12 from './patternpad12.svg';
 
 
 
@@ -12,6 +14,7 @@ import './Home.css';
 
 export function Home() {
     return(
+        <div>
         <div className='section'>
         <div className = 'container'>
             <div className='text'>
@@ -19,7 +22,7 @@ export function Home() {
                 
                 <h1>Hi I`m Laszlo.</h1>
                 
-                <p className='text-paragraph'>I'm a software developer passionate about front end development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
+                <p className='text-paragraph'>I'm a software developer passionate about Front-End Development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
                 <a href='../Contact/Contact' className='btn btn-lg' id='get-in-touch'>
                     Get in Touch
                     <i className='fas fa arrow-right'></i>
@@ -40,9 +43,51 @@ export function Home() {
                 </div>
             </div>
             
-            
-            {/* <img src={pattern12} alt='pattern' className='pattern-small'/> */}
         </div>
+</div>
+
+        <div className='container-about'>
+            <div className='about-grid'>
+                <div className='about-showcase'>
+                    <h5>About me</h5>
+                    <p className='text-paragraph'>From the moment I created my first application, I knew I
+                    was hooked into the world of software development. For me Front-End Development doesn`t mean "just a
+                    job", it`s offered an engaging challenge to continually
+                    learn and improve my skills in creating high-quality
+                    software.</p>
+                <a href='../contact/contact' id='get-in-touch' className='btn btn-lg' >Get in Touch</a>
+                </div>
+                <div>
+                <img src={me} alt='Csetri Laszlo' className='me'/>
+                <p id='about-text'>Hi, my name is</p>
+                <h4>Csetri Laszlo</h4>
+                <p className='web-developer'>And I`m a <span>Web Developer</span></p>
+                </div>
+                
+            </div> 
+        </div>
+          
+
+
+            <div className='container-about'>
+                <div className='about-grid'>
+                    <div className='about-showcase'>
+                        <img src={patternpad12}className='patternpad12' alt='patternpad12' />
+                    </div>
+                    <div className='hobbies-div'>
+                        <h5>Hobbies</h5>
+                        <p className='text-paragraph' id='text-hobbies'>I'm a very curios person, my hobbies are related to travelling, exploring new cities, discovering new places,new cultures. I believe travelling make people more open minded. I also enjoy reading books, i think it`s a good way to learn new things.</p>
+                        <a href='../contact/contact' id='get-in-touch' className='btn btn-lg' >Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+            <div id='footer-home'>
+               <footer>
+                    <p>© Csetri Laszlo 2021</p>
+                </footer> 
+            </div>
+            
+        
         </div>
     )
 }
