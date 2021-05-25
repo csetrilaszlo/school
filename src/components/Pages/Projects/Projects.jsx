@@ -4,12 +4,12 @@ import patternpad12 from './patternpad12.svg';
 
 
 
-import './About.css';
+import './Projects.css';
 
 
 import React from 'react';
 
-export function About() {
+export function Projects() {
     return(
         <div>
         

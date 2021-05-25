@@ -23,7 +23,7 @@ export function NavBar(){
                     
                     <li className='nav-item'>
                         <NavLink exact to= '/about' activeClassName='active' className='nav-links' onClick={handleClick}>
-                            About
+                            Projects
                     </NavLink>
                     </li>
                     <li className='nav-item'>
