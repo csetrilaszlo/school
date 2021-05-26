@@ -11,18 +11,22 @@ export function NavBar(){
         
 
         
-        <div className='navbar'>
+        <header className='navbar'>
             <div className='nav-container'>
-                <NavLink exact to= '/' className='nav-logo'>
+                {/* <NavLink exact to= '/' className='nav-logo'> */}
                     <img src={logo} className='logo'/>
                    
                    
-                </NavLink>
+                {/* </NavLink> */}
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    
+                <li className='nav-item'>
+                        <NavLink exact to= '/' activeClassName='active' className='nav-links' onClick={handleClick}>
+                            Home
+                    </NavLink>
+                    </li>
                     <li className='nav-item'>
-                        <NavLink exact to= '/about' activeClassName='active' className='nav-links' onClick={handleClick}>
+                        <NavLink exact to= '/projects' activeClassName='active' className='nav-links' onClick={handleClick}>
                             Projects
                     </NavLink>
                     </li>
@@ -47,6 +51,6 @@ export function NavBar(){
                 </div> 
             </div>
             
-        </div>
+        </header>
     )
 }
