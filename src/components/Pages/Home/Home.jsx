@@ -13,6 +13,7 @@ import './Home.css';
 
 
 export function Home() {
+    
     return(
         <div>
         <div className='section'>
@@ -20,7 +21,7 @@ export function Home() {
             <div className='text'>
                 
                 
-                <h1>Hi I`m Laszlo.</h1>
+                <h1 id='glitch-effect'>Hi I`m Laszlo.</h1>
                 <div className='big-web-developer-div'>
                      <p className='web-developer'>And I`m a <span></span></p>
                 </div>
