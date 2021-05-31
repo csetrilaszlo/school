@@ -164,7 +164,9 @@
     .education-card{
         display: block;
         align-items: center;
-        justify-self: center;
+        justify-self: center; 
+        
+        
     }
     .education-card div {
         border-left: none;
@@ -217,6 +219,13 @@
         width: 60px;
         margin-right: 10px; 
     }
+    #education-scoala1{
+        margin-right: 60px;
+    }
+    #education-scoala2{
+        margin-right: 60px;
+    }
+    
 }
 
 @media screen and (max-width: 540px) {

@@ -72,7 +72,7 @@ export function Skills() {
                                 <p> Economy, Business Law</p>
                             </div>
                     </div>
-                    <div className='education-card' >
+                    <div className='education-card' id='education-scoala1' >
                             <img src={scoalainformala} id='scoala-1' className='scoalainformala-img' alt='babes' />
                             <div id='scoala-1-div'>
                                 <h6>Intro in IT</h6>
@@ -80,7 +80,7 @@ export function Skills() {
                                 <p>HTML, CSS, JavaScript, SQL, Testing</p>
                             </div>
                     </div>
-                    <div className='education-card' >
+                    <div className='education-card' id='education-scoala2'>
                         
                             <img src={scoalainformala} id='scoala-2' className='scoalainformala-img' alt='babes' />
                             <div id='scoala-2-div'>

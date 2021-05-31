@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
+import cv from './CsetriLaszloCV.pdf';
 import { NavLink } from 'react-router-dom';
 
 import './NavBar.css';
@@ -13,11 +14,9 @@ export function NavBar(){
         
         <header className='navbar'>
             <div className='nav-container'>
-                {/* <NavLink exact to= '/' className='nav-logo'> */}
+                <NavLink exact to= '/' className='nav-logo'> 
                     <img src={logo} className='logo'/>
-                   
-                   
-                {/* </NavLink> */}
+                </NavLink>
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
@@ -41,9 +40,9 @@ export function NavBar(){
                     </NavLink>
                     </li>
                     <li className='resume-item'>
-                        <NavLink exact to= 'resume' activeClassName='active' id='resume-link' onClick={handleClick}>
+                        <a href={cv} target='_blank' activeClassName='active' id='resume-link' onClick={handleClick}>
                             Résumé
-                    </NavLink>
+                    </a>
                     </li>
                 </ul>
                 <div className='nav-icon' onClick={handleClick}>

@@ -21,7 +21,10 @@ export function Home() {
                 
                 
                 <h1>Hi I`m Laszlo.</h1>
-                
+                <div className='big-web-developer-div'>
+                     <p className='web-developer'>And I`m a <span></span></p>
+                </div>
+                   
                 <p className='text-paragraph'>I'm a software developer passionate about Front-End Development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
                 <a href='../Contact/Contact' className='btn btn-lg' id='get-in-touch'>
                     Get in Touch
@@ -31,6 +34,7 @@ export function Home() {
             <div>
                 <img src={pattern16} alt='pattern' className='pattern-big' id='big-pattern'/>
                 <div className='links-container'>
+                    
                     <a href='mailto: csetrilaszlo@gmail.com' target='_blank'>
                     <img src={email} alt='email' className='links' />
                     </a>
@@ -61,7 +65,7 @@ export function Home() {
                 <img src={me} alt='Csetri Laszlo' className='me'/>
                 <p id='about-text'>Hi, my name is</p>
                 <h4>Csetri Laszlo</h4>
-                <p className='web-developer'>And I`m a <span>Web Developer</span></p>
+               
                 </div>
                 
             </div> 
