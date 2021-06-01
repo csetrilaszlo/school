@@ -23,6 +23,10 @@
     
     
 }
+.logo:hover {
+  transform: rotateY(360deg);
+  transition: 2s;
+}
 
   .nav-container {
     display: flex;
