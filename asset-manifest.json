@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/school/static/css/main.a81b3032.chunk.css",
+    "main.js": "/school/static/js/main.82f52d9b.chunk.js",
+    "main.js.map": "/school/static/js/main.82f52d9b.chunk.js.map",
+    "runtime-main.js": "/school/static/js/runtime-main.fe6ccfe6.js",
+    "runtime-main.js.map": "/school/static/js/runtime-main.fe6ccfe6.js.map",
+    "static/js/2.5d4d9089.chunk.js": "/school/static/js/2.5d4d9089.chunk.js",
+    "static/js/2.5d4d9089.chunk.js.map": "/school/static/js/2.5d4d9089.chunk.js.map",
+    "static/js/3.20d1f1e4.chunk.js": "/school/static/js/3.20d1f1e4.chunk.js",
+    "static/js/3.20d1f1e4.chunk.js.map": "/school/static/js/3.20d1f1e4.chunk.js.map",
+    "index.html": "/school/index.html",
+    "static/css/main.a81b3032.chunk.css.map": "/school/static/css/main.a81b3032.chunk.css.map",
+    "static/js/2.5d4d9089.chunk.js.LICENSE.txt": "/school/static/js/2.5d4d9089.chunk.js.LICENSE.txt",
+    "static/media/CsetriLaszloCV.0ea7a31c.pdf": "/school/static/media/CsetriLaszloCV.0ea7a31c.pdf",
+    "static/media/babes.07fd94b5.png": "/school/static/media/babes.07fd94b5.png",
+    "static/media/calculator.447f67a4.jpg": "/school/static/media/calculator.447f67a4.jpg",
+    "static/media/email.c039ffd4.svg": "/school/static/media/email.c039ffd4.svg",
+    "static/media/github.1be3365d.svg": "/school/static/media/github.1be3365d.svg",
+    "static/media/linkedin.ed1324b3.svg": "/school/static/media/linkedin.ed1324b3.svg",
+    "static/media/logo.0adc92f1.svg": "/school/static/media/logo.0adc92f1.svg",
+    "static/media/me.5c38ee59.jpg": "/school/static/media/me.5c38ee59.jpg",
+    "static/media/patternpad12.e236a966.svg": "/school/static/media/patternpad12.e236a966.svg",
+    "static/media/patternpad16.f1913da2.svg": "/school/static/media/patternpad16.f1913da2.svg",
+    "static/media/patternpad4.efb87258.svg": "/school/static/media/patternpad4.efb87258.svg",
+    "static/media/patternpad44.d56cc121.svg": "/school/static/media/patternpad44.d56cc121.svg",
+    "static/media/patternpad444.2af9db5f.svg": "/school/static/media/patternpad444.2af9db5f.svg",
+    "static/media/patternpad9.a8d8596a.svg": "/school/static/media/patternpad9.a8d8596a.svg",
+    "static/media/patternpadcontact.2ef373b1.svg": "/school/static/media/patternpadcontact.2ef373b1.svg",
+    "static/media/phone.73370ed6.svg": "/school/static/media/phone.73370ed6.svg",
+    "static/media/scoalainformala.c83325c1.png": "/school/static/media/scoalainformala.c83325c1.png",
+    "static/media/szovatafinal2.49b5bd56.jpg": "/school/static/media/szovatafinal2.49b5bd56.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe6ccfe6.js",
+    "static/js/2.5d4d9089.chunk.js",
+    "static/css/main.a81b3032.chunk.css",
+    "static/js/main.82f52d9b.chunk.js"
+  ]
+}
