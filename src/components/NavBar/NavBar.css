@@ -154,6 +154,7 @@
 
     .nav-item:hover {
         border-bottom: 1px solid black;
+        z-index: 1;
     }
 
     .nav-menu {
