@@ -108,6 +108,7 @@ h1 {
     text-decoration: none;
     padding: 15px 50px;
     font-size: 20px;
+    z-index: 1;
     
 }
 
