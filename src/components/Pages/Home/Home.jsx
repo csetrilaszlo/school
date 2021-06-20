@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState } from 'react';
 import pattern16 from './patternpad16.svg';
 import email from './email.svg';
 import github from './github.svg';
@@ -13,8 +13,12 @@ import './Home.css';
 
 
 export function Home() {
+    
     function hoverOnLinks(e) {
         e.target.style.opacity = '80%';
+    }
+    function notHoverOnLinks(e) {
+        e.target.style.opacity = '100%';
     }
     return(
         <div>
@@ -29,7 +33,7 @@ export function Home() {
                 </div>
                    
                 <p className='text-paragraph'>I'm a software developer passionate about Front-End Development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
-                <a href='../Contact/Contact' onMouseOver={hoverOnLinks} className='btn btn-lg' id='get-in-touch'>
+                <a href='../Contact/Contact' onMouseOver={hoverOnLinks} onMouseLeave={notHoverOnLinks} className='btn btn-lg' id='get-in-touch'>
                     Get in Touch
                     <i className='fas fa arrow-right'></i>
                 </a>
