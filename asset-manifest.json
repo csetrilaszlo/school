@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/school/static/css/main.50b5416f.chunk.css",
+    "main.css": "/school/static/css/main.06f8ef51.chunk.css",
     "main.js": "/school/static/js/main.b683c9c7.chunk.js",
     "main.js.map": "/school/static/js/main.b683c9c7.chunk.js.map",
     "runtime-main.js": "/school/static/js/runtime-main.fe6ccfe6.js",
@@ -10,7 +10,7 @@
     "static/js/3.20d1f1e4.chunk.js": "/school/static/js/3.20d1f1e4.chunk.js",
     "static/js/3.20d1f1e4.chunk.js.map": "/school/static/js/3.20d1f1e4.chunk.js.map",
     "index.html": "/school/index.html",
-    "static/css/main.50b5416f.chunk.css.map": "/school/static/css/main.50b5416f.chunk.css.map",
+    "static/css/main.06f8ef51.chunk.css.map": "/school/static/css/main.06f8ef51.chunk.css.map",
     "static/js/2.2c045992.chunk.js.LICENSE.txt": "/school/static/js/2.2c045992.chunk.js.LICENSE.txt",
     "static/media/CsetriLaszloCV.0ea7a31c.pdf": "/school/static/media/CsetriLaszloCV.0ea7a31c.pdf",
     "static/media/babes.07fd94b5.png": "/school/static/media/babes.07fd94b5.png",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.fe6ccfe6.js",
     "static/js/2.2c045992.chunk.js",
-    "static/css/main.50b5416f.chunk.css",
+    "static/css/main.06f8ef51.chunk.css",
     "static/js/main.b683c9c7.chunk.js"
   ]
 }
