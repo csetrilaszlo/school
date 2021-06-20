@@ -1,5 +1,5 @@
 import { NavBar } from "./components/NavBar/NavBar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Projects } from "./components/Pages/Projects/Projects";
 import { Skills } from "./components/Pages/Skills/Skills";
 import { Contact } from "./components/Pages/Contact/Contact";
