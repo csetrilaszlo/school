@@ -114,7 +114,8 @@ h1 {
 
 
 #get-in-touch:hover {
-    opacity: 80%;
+    /* opacity: 80%; */
+    color: yellow;
     z-index: 10;
 }
 
