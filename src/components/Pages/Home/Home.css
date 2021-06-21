@@ -107,16 +107,12 @@ h1 {
     font-weight: 400;
     text-decoration: none;
     padding: 15px 50px;
-    font-size: 20px;
-    z-index: 10;
-    
+    font-size: 20px;    
 }
 
 
 #get-in-touch:hover {
     opacity: 80%;
-    
-    z-index: 10;
 }
 
 .btn-lg {
