@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from 'react';
+import React, {useEffect, Component } from 'react';
 import pattern16 from './patternpad16.svg';
 import email from './email.svg';
 import github from './github.svg';
@@ -12,12 +12,15 @@ import patternpad12 from './patternpad12.svg';
 import './Home.css';
 
 
-export function Home() {
-    const [opacity, setOpacity] = useState('100%');
-    
-    const appStyles = {
-        opacity: `${opacity}`,
+export class Home extends Component {
+    handleMouseEnter(e){
+        e.target.style.opacity = '80%';
     }
+    handleMouseLeave(e){
+        e.target.style.opacity = '100%';
+    }
+    
+    render(){
 
     return(
         <div>
@@ -32,9 +35,9 @@ export function Home() {
                 </div>
                    
                 <p className='text-paragraph'>I'm a software developer passionate about Front-End Development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
-                <a href='../Contact/Contact' style={appStyles} 
-                onMouseEnter={() => setOpacity('80%')}
-                onMouseLeave={() => setOpacity('100%')}
+                <a href='../Contact/Contact' 
+                onMouseEnter={this.handleMouseEnter}
+                onMouseLeave={this.handleMouseLeave}
                 className='btn btn-lg' id='get-in-touch'>
                     Get in Touch
                     <i className='fas fa arrow-right'></i>
@@ -69,9 +72,9 @@ export function Home() {
                     learn and improve my skills in creating high-quality
                     software.</p>
                 <a href='../contact/contact' id='get-in-touch'
-                style={appStyles} 
-                onMouseEnter={() => setOpacity('80%')}
-                onMouseLeave={() => setOpacity('100%')}
+                
+                onMouseEnter={this.handleMouseEnter}
+                onMouseLeave={this.handleMouseLeave}
                 className='btn btn-lg' >Get in Touch</a>
                 </div>
                 <div>
@@ -95,9 +98,8 @@ export function Home() {
                         <h5>Hobbies</h5>
                         <p className='text-paragraph' id='text-hobbies'>I'm a very curios person, my hobbies are related to travelling, exploring new cities, discovering new places,new cultures. I believe travelling make people more open minded. I also enjoy reading books, i think it`s a good way to learn new things.</p>
                         <a href='../contact/contact' id='get-in-touch' 
-                        style={appStyles} 
-                        onMouseEnter={() => setOpacity('80%')}
-                        onMouseLeave={() => setOpacity('100%')}
+                        onMouseEnter={this.handleMouseEnter}
+                        onMouseLeave={this.handleMouseLeave}
                         className='btn btn-lg' >Get in Touch</a>
                     </div>
                 </div>
@@ -111,4 +113,5 @@ export function Home() {
         
         </div>
     )
+}
 }
