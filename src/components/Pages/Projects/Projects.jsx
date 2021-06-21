@@ -1,10 +1,18 @@
+import React, { Component } from 'react';
 import calculator from './calculator.jpg';
 import sovata from './szovatafinal2.jpg';
 import React from 'react';
 
 import './Projects.css';
 
-export function Projects() {
+export class Projects extends Component {
+    handleMouseEnter(e){
+        e.target.style.opacity = '85%';
+    }
+    handleMouseLeave(e){
+        e.target.style.opacity = '100%';
+    }
+    render(){
     return(
         <div className='projects-big'>
             
@@ -21,10 +29,16 @@ export function Projects() {
                             <div className='container-projects-button'>
                                 <ul className='projects-ul'>
                                     <li>
-                                        <a href='https://csetrilaszlo.github.io/' target='_blank' id='live-button' >Live Site</a>
+                                        <a href='https://csetrilaszlo.github.io/' target='_blank' id='live-button' 
+                                        onMouseEnter={this.handleMouseEnter}
+                                        onMouseLeave={this.handleMouseLeave}
+                                        >Live Site</a>
                                     </li>
                                     <li>
-                                        <a href='https://github.com/csetrilaszlo/csetrilaszlo.github.io' target='_blank' id='github-button' className='btn-secondary'>GitHub</a>
+                                        <a href='https://github.com/csetrilaszlo/csetrilaszlo.github.io' target='_blank' id='github-button' className='btn-secondary'
+                                        onMouseEnter={this.handleMouseEnter}
+                                        onMouseLeave={this.handleMouseLeave}
+                                        >GitHub</a>
                                     </li>
                                 </ul>
                                 
@@ -42,10 +56,16 @@ export function Projects() {
                             <div className='container-projects-button'>
                                 <ul className='projects-ul'>
                                     <li>
-                                        <a href='https://csetrilaszlo.github.io/sovata/' target='_blank' id='live-button' >Live Site</a>
+                                        <a href='https://csetrilaszlo.github.io/sovata/' target='_blank' id='live-button' 
+                                        onMouseEnter={this.handleMouseEnter}
+                                        onMouseLeave={this.handleMouseLeave}
+                                        >Live Site</a>
                                     </li>
                                     <li>
-                                        <a href='https://github.com/csetrilaszlo/sovata' target='_blank' id='github-button' className='btn-secondary'>GitHub</a>
+                                        <a href='https://github.com/csetrilaszlo/sovata' target='_blank' id='github-button' className='btn-secondary'
+                                        onMouseEnter={this.handleMouseEnter}
+                                        onMouseLeave={this.handleMouseLeave}
+                                        >GitHub</a>
                                     </li>
                                 </ul>
                                 
@@ -69,4 +89,5 @@ export function Projects() {
                 
         </div>
     )
+}
 }
