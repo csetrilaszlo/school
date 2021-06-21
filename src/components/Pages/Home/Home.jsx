@@ -18,11 +18,7 @@ export function Home() {
         e.target.style.opacity = '80%';
     }
     function notHoverOnLinks(e) {
-        e.target.style.opacity = '100%'
-        e.target.style.fontWeight = '400';
-        e.target.style.textDecoration = 'none';
-        e.target.style.padding = '15px 50px';
-        e.target.style.fontSize = '20px';   
+        console.log('Not hovering')  
     }
     return(
         <div>
