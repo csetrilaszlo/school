@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/school/static/css/main.b30ba2fc.chunk.css",
-    "main.js": "/school/static/js/main.cf2f59f1.chunk.js",
-    "main.js.map": "/school/static/js/main.cf2f59f1.chunk.js.map",
-    "runtime-main.js": "/school/static/js/runtime-main.fe6ccfe6.js",
-    "runtime-main.js.map": "/school/static/js/runtime-main.fe6ccfe6.js.map",
-    "static/js/2.f4000854.chunk.js": "/school/static/js/2.f4000854.chunk.js",
-    "static/js/2.f4000854.chunk.js.map": "/school/static/js/2.f4000854.chunk.js.map",
-    "static/js/3.20d1f1e4.chunk.js": "/school/static/js/3.20d1f1e4.chunk.js",
-    "static/js/3.20d1f1e4.chunk.js.map": "/school/static/js/3.20d1f1e4.chunk.js.map",
+    "main.css": "/school/static/css/main.bb2671b9.chunk.css",
+    "main.js": "/school/static/js/main.a5daf509.chunk.js",
+    "main.js.map": "/school/static/js/main.a5daf509.chunk.js.map",
+    "runtime-main.js": "/school/static/js/runtime-main.e7983679.js",
+    "runtime-main.js.map": "/school/static/js/runtime-main.e7983679.js.map",
+    "static/js/2.c95e4a1f.chunk.js": "/school/static/js/2.c95e4a1f.chunk.js",
+    "static/js/2.c95e4a1f.chunk.js.map": "/school/static/js/2.c95e4a1f.chunk.js.map",
+    "static/js/3.adfd8ca3.chunk.js": "/school/static/js/3.adfd8ca3.chunk.js",
+    "static/js/3.adfd8ca3.chunk.js.map": "/school/static/js/3.adfd8ca3.chunk.js.map",
     "index.html": "/school/index.html",
-    "static/css/main.b30ba2fc.chunk.css.map": "/school/static/css/main.b30ba2fc.chunk.css.map",
-    "static/js/2.f4000854.chunk.js.LICENSE.txt": "/school/static/js/2.f4000854.chunk.js.LICENSE.txt",
+    "static/css/main.bb2671b9.chunk.css.map": "/school/static/css/main.bb2671b9.chunk.css.map",
+    "static/js/2.c95e4a1f.chunk.js.LICENSE.txt": "/school/static/js/2.c95e4a1f.chunk.js.LICENSE.txt",
     "static/media/CsetriLaszloCV.0ea7a31c.pdf": "/school/static/media/CsetriLaszloCV.0ea7a31c.pdf",
     "static/media/babes.07fd94b5.png": "/school/static/media/babes.07fd94b5.png",
     "static/media/calculator.447f67a4.jpg": "/school/static/media/calculator.447f67a4.jpg",
@@ -32,9 +32,9 @@
     "static/media/szovatafinal2.49b5bd56.jpg": "/school/static/media/szovatafinal2.49b5bd56.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe6ccfe6.js",
-    "static/js/2.f4000854.chunk.js",
-    "static/css/main.b30ba2fc.chunk.css",
-    "static/js/main.cf2f59f1.chunk.js"
+    "static/js/runtime-main.e7983679.js",
+    "static/js/2.c95e4a1f.chunk.js",
+    "static/css/main.bb2671b9.chunk.css",
+    "static/js/main.a5daf509.chunk.js"
   ]
 }
