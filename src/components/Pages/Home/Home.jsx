@@ -45,24 +45,13 @@ export function Home() {
                 <div className='links-container'>
                     
                     <a href='mailto: csetrilaszlo@gmail.com' target='_blank'>
-                    <img src={email} alt='email' className='links' 
-                    style={appStyles} 
-                    onMouseEnter={() => setOpacity('80%')}
-                    onMouseLeave={() => setOpacity('100%')}
-                    />
+                    <img src={email} alt='email' className='links' />
                     </a>
                     <a href='https://github.com/csetrilaszlo' target='_blank'>
-                    <img src={github} alt='github' className='links' 
-                    style={appStyles} 
-                    onMouseEnter={() => setOpacity('80%')}
-                    onMouseLeave={() => setOpacity('100%')}/>
+                    <img src={github} alt='github' className='links' />
                     </a>
                     <a href='https://www.linkedin.com/in/csetri-laszlo-07220936/' target='_blank'>
-                    <img src={linkedin} alt='linkedin' className='links'
-                    style={appStyles} 
-                    onMouseEnter={() => setOpacity('80%')}
-                    onMouseLeave={() => setOpacity('100%')}
-                    />
+                    <img src={linkedin} alt='linkedin' className='links'/>
                     </a>
                 </div>
             </div>
