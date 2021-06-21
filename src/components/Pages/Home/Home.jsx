@@ -13,13 +13,12 @@ import './Home.css';
 
 
 export function Home() {
+    const [opacity, setOpacity] = useState('100%');
     
-    function hoverOnLinks(e) {
-        e.target.style.opacity = '80%';
+    const appStyles = {
+        opacity: `${opacity}`,
     }
-    function notHoverOnLinks(e) {
-        console.log('Not hovering')  
-    }
+
     return(
         <div>
         <div className='section'>
@@ -33,7 +32,10 @@ export function Home() {
                 </div>
                    
                 <p className='text-paragraph'>I'm a software developer passionate about Front-End Development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
-                <a href='../Contact/Contact' onMouseOver={hoverOnLinks} onMouseLeave={notHoverOnLinks} className='btn btn-lg' id='get-in-touch'>
+                <a href='../Contact/Contact' style={appStyles} 
+                onMouseEnter={() => setOpacity('80%')}
+                onMouseLeave={() => setOpacity('100%')}
+                className='btn btn-lg' id='get-in-touch'>
                     Get in Touch
                     <i className='fas fa arrow-right'></i>
                 </a>
