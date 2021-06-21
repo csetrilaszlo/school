@@ -45,13 +45,24 @@ export function Home() {
                 <div className='links-container'>
                     
                     <a href='mailto: csetrilaszlo@gmail.com' target='_blank'>
-                    <img src={email} alt='email' className='links' />
+                    <img src={email} alt='email' className='links' 
+                    style={appStyles} 
+                    onMouseEnter={() => setOpacity('80%')}
+                    onMouseLeave={() => setOpacity('100%')}
+                    />
                     </a>
                     <a href='https://github.com/csetrilaszlo' target='_blank'>
-                    <img src={github} alt='github' className='links' />
+                    <img src={github} alt='github' className='links' 
+                    style={appStyles} 
+                    onMouseEnter={() => setOpacity('80%')}
+                    onMouseLeave={() => setOpacity('100%')}/>
                     </a>
                     <a href='https://www.linkedin.com/in/csetri-laszlo-07220936/' target='_blank'>
-                    <img src={linkedin} alt='linkedin' className='links' />
+                    <img src={linkedin} alt='linkedin' className='links'
+                    style={appStyles} 
+                    onMouseEnter={() => setOpacity('80%')}
+                    onMouseLeave={() => setOpacity('100%')}
+                    />
                     </a>
                 </div>
             </div>
@@ -68,7 +79,11 @@ export function Home() {
                     job", it`s offered an engaging challenge to continually
                     learn and improve my skills in creating high-quality
                     software.</p>
-                <a href='../contact/contact' id='get-in-touch' className='btn btn-lg' >Get in Touch</a>
+                <a href='../contact/contact' id='get-in-touch'
+                style={appStyles} 
+                onMouseEnter={() => setOpacity('80%')}
+                onMouseLeave={() => setOpacity('100%')}
+                className='btn btn-lg' >Get in Touch</a>
                 </div>
                 <div>
                 <img src={me} alt='Csetri Laszlo' className='me'/>
@@ -90,7 +105,11 @@ export function Home() {
                     <div className='hobbies-div'>
                         <h5>Hobbies</h5>
                         <p className='text-paragraph' id='text-hobbies'>I'm a very curios person, my hobbies are related to travelling, exploring new cities, discovering new places,new cultures. I believe travelling make people more open minded. I also enjoy reading books, i think it`s a good way to learn new things.</p>
-                        <a href='../contact/contact' id='get-in-touch' className='btn btn-lg' >Get in Touch</a>
+                        <a href='../contact/contact' id='get-in-touch' 
+                        style={appStyles} 
+                        onMouseEnter={() => setOpacity('80%')}
+                        onMouseLeave={() => setOpacity('100%')}
+                        className='btn btn-lg' >Get in Touch</a>
                     </div>
                 </div>
             </div>
