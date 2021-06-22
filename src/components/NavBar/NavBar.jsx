@@ -29,13 +29,17 @@ export function NavBar(){
     const homeStyle = {
         opacity : `${opacityHome}`,
         borderBottom : `${borderHome}`,
-        MarginBottom : '-1px',
+        zIndex : '1',
+        borderBottom : '-1px',
+      
+        
         
     };
     const projectsStyle = {
         opacity : `${opacityProjects}`,
         borderBottom : `${borderProjects}`,
-        MarginBottom : '-1px',
+        zIndex : '1',
+        borderBottom : '-1px',
         
         
         
@@ -43,15 +47,17 @@ export function NavBar(){
     const skillsStyle = {
         opacity : `${opacitySkills}`,
         borderBottom : `${borderSkills}`,
-        MarginBottom : '-1px',
+        zIndex : '1',
+        borderBottom : '-1px',
         
         
     };
     const contactStyle = {
         opacity : `${opacityContact}`,
         borderBottom : `${borderContact}`,
-        MarginBottom : '-1px',
-       
+        zIndex : '1',
+        borderBottom : '-1px',
+        
         
         
         
@@ -59,6 +65,7 @@ export function NavBar(){
     
     const resumeStyle = {
         opacity : `${opacityResume}`,
+        zIndex : '1',
     };
     
 
@@ -77,13 +84,13 @@ export function NavBar(){
                         <NavLink exact to= '/' activeClassName='active' className='nav-links' onClick={handleClick} 
                        style={homeStyle}
                        onMouseEnter={ function homeEnter() {
-                          setOpacityHome("80%");
+                          setOpacityHome("50%");
                           setBorderHome('1px solid black');
                           
                        } }
                        onMouseLeave={function homeLeave(){
                            setOpacityHome("100%");
-                           setBorderHome('none');
+                           setBorderHome('1px solid transparent');
                            
                        } }
                         >
@@ -94,13 +101,13 @@ export function NavBar(){
                         <NavLink exact to= '/projects' activeClassName='active' className='nav-links' onClick={handleClick}
                          style={projectsStyle}
                          onMouseEnter={ function projectEnter() {
-                            setOpacityProjects("80%");
+                            setOpacityProjects("50%");
                             setBorderProjects('1px solid black');
                             
                          } }
                          onMouseLeave={function projectLeave(){
                              setOpacityProjects("100%");
-                             setBorderProjects('none');
+                             setBorderProjects('1px solid transparent');
                              
                          } }>
                             Projects
@@ -110,13 +117,13 @@ export function NavBar(){
                         <NavLink exact to= '/skills' activeClassName='active' className='nav-links' onClick={handleClick}
                          style={skillsStyle}
                          onMouseEnter={ function skillsEnter() {
-                            setOpacitySkills("80%");
+                            setOpacitySkills("50%");
                             setBorderSkills('1px solid black');
                            
                          } }
                          onMouseLeave={function skillsLeave(){
                              setOpacitySkills("100%");
-                             setBorderSkills('none');
+                             setBorderSkills('1px solid transparent');
                              
                          } }
                          >
@@ -127,13 +134,13 @@ export function NavBar(){
                         <NavLink exact to= '/contact' activeClassName='active' className='nav-links' onClick={handleClick}
                         style={contactStyle}
                         onMouseEnter={ function contactEnter() {
-                           setOpacityContact("80%");
+                           setOpacityContact("50%");
                            setBorderContact('1px solid black');
                            
                         } }
                         onMouseLeave={function projectLeave(){
                             setOpacityContact("100%");
-                            setBorderContact('none');
+                            setBorderContact('1px solid transparent');
                             
                         } }
                          >
