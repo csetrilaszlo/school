@@ -29,35 +29,26 @@ export function NavBar(){
     const homeStyle = {
         opacity : `${opacityHome}`,
         borderBottom : `${borderHome}`,
-        '@media (min-width: 960px)' :{
-        borderBottom : 'none';
-        }
+        
         
     };
     const projectsStyle = {
         opacity : `${opacityProjects}`,
         borderBottom : `${borderProjects}`,
-        '@media (min-width: 960px)' :{
-            borderBottom : 'none';
-            }
+        
         
         
     };
     const skillsStyle = {
         opacity : `${opacitySkills}`,
         borderBottom : `${borderSkills}`,
-        '@media (min-width: 960px)' :{
-            borderBottom : 'none';
-            }
         
         
     };
     const contactStyle = {
         opacity : `${opacityContact}`,
         borderBottom : `${borderContact}`,
-        '@media (min-width: 960px)' :{
-            borderBottom : 'none';
-            }
+        
         
         
     };
@@ -88,7 +79,7 @@ export function NavBar(){
                        } }
                        onMouseLeave={function homeLeave(){
                            setOpacityHome("100%");
-                           setBorderHome('1px solid lightgray');
+                           setBorderHome('none');
                            
                        } }
                         >
@@ -105,7 +96,7 @@ export function NavBar(){
                          } }
                          onMouseLeave={function projectLeave(){
                              setOpacityProjects("100%");
-                             setBorderProjects('1px solid lightgray');
+                             setBorderProjects('none');
                              
                          } }>
                             Projects
@@ -121,7 +112,7 @@ export function NavBar(){
                          } }
                          onMouseLeave={function skillsLeave(){
                              setOpacitySkills("100%");
-                             setBorderSkills('1px solid lightgray');
+                             setBorderSkills('none');
                              
                          } }
                          >
@@ -138,7 +129,7 @@ export function NavBar(){
                         } }
                         onMouseLeave={function projectLeave(){
                             setOpacityContact("100%");
-                            setBorderContact('1px solid lightgray');
+                            setBorderContact('none');
                             
                         } }
                          >
