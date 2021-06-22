@@ -88,7 +88,7 @@
     transition: width 0.7s ease, background-color 0.5s ease;
   }
   
-  .nav-item:hover {
+  /* .nav-item:hover {
       border-bottom: 1px solid black;
       display: flex;
       opacity:50%;
@@ -100,7 +100,7 @@
     transition: width .3s;
     background: white;
     width: 100%;
-  }
+  } */
   
   .nav-item .active {
     color: black;
@@ -123,7 +123,7 @@
 
 
 }
-#resume-link:hover {
+/* #resume-link:hover {
     background-color: #f9ea65;
     border-radius: 8px;
     padding: 10px 30px;
@@ -132,7 +132,7 @@
     opacity:80%;
 
 
-}
+} */
 
 
  
@@ -152,10 +152,10 @@
       border-bottom: 1px solid lightgray;
     }
 
-    .nav-item:hover {
+    /* .nav-item:hover {
         border-bottom: 1px solid black;
         z-index: 1;
-    }
+    } */
 
     .nav-menu {
       display: flex;
