@@ -29,24 +29,35 @@ export function NavBar(){
     const homeStyle = {
         opacity : `${opacityHome}`,
         borderBottom : `${borderHome}`,
-       
+        '@media (min-width: 960px)' :{
+        borderBottom : 'none';
+        }
         
     };
     const projectsStyle = {
         opacity : `${opacityProjects}`,
         borderBottom : `${borderProjects}`,
+        '@media (min-width: 960px)' :{
+            borderBottom : 'none';
+            }
         
         
     };
     const skillsStyle = {
         opacity : `${opacitySkills}`,
         borderBottom : `${borderSkills}`,
+        '@media (min-width: 960px)' :{
+            borderBottom : 'none';
+            }
         
         
     };
     const contactStyle = {
         opacity : `${opacityContact}`,
         borderBottom : `${borderContact}`,
+        '@media (min-width: 960px)' :{
+            borderBottom : 'none';
+            }
         
         
     };
