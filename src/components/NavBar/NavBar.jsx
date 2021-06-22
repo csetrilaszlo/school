@@ -13,23 +13,23 @@ export function NavBar(){
     const [border, setBorder] = useState('none');
 
     const homeStyle = {
-        opacity = `${setOpacity}`,
-        border = `${setBorder}`,
+        opacity : `${setOpacity}`,
+        border : `${setBorder}`,
     };
     const projectsStyle = {
-        opacity = `${setOpacity}`,
-        border = `${setBorder}`,
+        opacity : `${setOpacity}`,
+        border : `${setBorder}`,
     };
     const skillsStyle = {
-        opacity = `${setOpacity}`,
-        border = `${setBorder}`,
+        opacity : `${setOpacity}`,
+        border : `${setBorder}`,
     };
     const contactStyle = {
-        opacity = `${setOpacity}`,
-        border = `${setBorder}`,
+        opacity : `${setOpacity}`,
+        border : `${setBorder}`,
     };
     const resumeStyle = {
-        opacity = `${setOpacity}`,
+        opacity : `${setOpacity}`,
     };
     
 
