@@ -29,12 +29,14 @@ export function NavBar(){
     const homeStyle = {
         opacity : `${opacityHome}`,
         borderBottom : `${borderHome}`,
+        borderTop: 'none',
         
         
     };
     const projectsStyle = {
         opacity : `${opacityProjects}`,
         borderBottom : `${borderProjects}`,
+        borderTop: 'none',
         
         
         
@@ -42,12 +44,14 @@ export function NavBar(){
     const skillsStyle = {
         opacity : `${opacitySkills}`,
         borderBottom : `${borderSkills}`,
+        borderTop: 'none',
         
         
     };
     const contactStyle = {
         opacity : `${opacityContact}`,
         borderBottom : `${borderContact}`,
+        borderTop: 'none',
         
         
         
