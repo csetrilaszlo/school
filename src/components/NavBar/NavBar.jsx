@@ -19,6 +19,11 @@ export function NavBar(){
     const [borderSkills, setBorderSkills] = useState('none');
     const [borderContact, setBorderContact] = useState('none');
 
+    const [displayHome, setDisplayHome] = useState('block');
+    const [displayProjects, setDisplayProjects] = useState('block');
+    const [displaySkills, setDisplaySkills] = useState('block');
+    const [displayContact, setDisplayContact] = useState('block');
+
 
 
     const [opacityResume, setOpacityResume] = useState('100%');
@@ -27,21 +32,25 @@ export function NavBar(){
     const homeStyle = {
         opacity : `${opacityHome}`,
         borderBottom : `${borderHome}`,
+        display : `${displayHome}`,
         
     };
     const projectsStyle = {
         opacity : `${opacityProjects}`,
         borderBottom : `${borderProjects}`,
+        display : `${displayProjects}`,
         
     };
     const skillsStyle = {
         opacity : `${opacitySkills}`,
         borderBottom : `${borderSkills}`,
+        display : `${displaySkills}`,
         
     };
     const contactStyle = {
         opacity : `${opacityContact}`,
         borderBottom : `${borderContact}`,
+        display : `${displayContact}`,
         
     };
     
@@ -67,10 +76,12 @@ export function NavBar(){
                        onMouseEnter={ function homeEnter() {
                           setOpacityHome("80%");
                           setBorderHome('1px solid black');
+                          setDisplayHome('flex');
                        } }
                        onMouseLeave={function homeLeave(){
                            setOpacityHome("100%");
                            setBorderHome('none');
+                           setDisplayHome('block');
                        } }
                         >
                             Home
@@ -82,10 +93,12 @@ export function NavBar(){
                          onMouseEnter={ function projectEnter() {
                             setOpacityProjects("80%");
                             setBorderProjects('1px solid black');
+                            setDisplayProjects('flex');
                          } }
                          onMouseLeave={function projectLeave(){
                              setOpacityProjects("100%");
                              setBorderProjects('none');
+                             setDisplayProjects('block');
                          } }>
                             Projects
                     </NavLink>
@@ -96,10 +109,12 @@ export function NavBar(){
                          onMouseEnter={ function skillsEnter() {
                             setOpacitySkills("80%");
                             setBorderSkills('1px solid black');
+                            setDisplaySkills('flex');
                          } }
                          onMouseLeave={function skillsLeave(){
                              setOpacitySkills("100%");
                              setBorderSkills('none');
+                             setDisplaySkills('block');
                          } }
                          >
                             Skills
@@ -111,10 +126,12 @@ export function NavBar(){
                         onMouseEnter={ function contactEnter() {
                            setOpacityContact("80%");
                            setBorderContact('1px solid black');
+                           setDisplayContact('flex');
                         } }
                         onMouseLeave={function projectLeave(){
                             setOpacityContact("100%");
                             setBorderContact('none');
+                            setDisplayContact('block');
                         } }
                          >
                             Contact
