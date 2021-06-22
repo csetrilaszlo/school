@@ -12,6 +12,11 @@ export function Contact() {
     const [name, setname] = useState('');
     const [email, setemail] = useState('');
     const [message, setmessage] = useState('');
+    const [opacity, setOpacity] = useState('100%');
+
+    const appStyles = {
+      opacity: `S{opacity}`,
+    }
 
     function SubmitButton(){
         if (name && email && message){
@@ -70,7 +75,11 @@ export function Contact() {
                 <input type='text' placeholder='*Name' id='name-item' required className='input-item' value={name} onChange={ e => setname(e.target.value)}/>
                 <input type='text'  placeholder='*Email' required className='input-item' value={email} onChange={ e => setemail(e.target.value)}/>
                 <textarea required placeholder='*Message' value={message} onChange={ e => setmessage(e.target.value)}></textarea>
-                <SubmitButton />
+                <SubmitButton 
+                 style={appStyles}
+                 onMouseEnter={() => setOpacity("80%")}
+                 onMouseLeave={() => setOpacity("100%")}
+                />
             {/* <a href='mailto:csetrilaszlo@gmail.com' className='submit-button'>Submit</a> */}
         </div>
         <div className='contact-pattern-image' id='input-image'>
