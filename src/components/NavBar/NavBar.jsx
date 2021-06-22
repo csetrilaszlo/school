@@ -29,14 +29,14 @@ export function NavBar(){
     const homeStyle = {
         opacity : `${opacityHome}`,
         borderBottom : `${borderHome}`,
-        borderTop: 'none',
+        borderTop: '-1px solid white',
         
         
     };
     const projectsStyle = {
         opacity : `${opacityProjects}`,
         borderBottom : `${borderProjects}`,
-        borderTop: 'none',
+        borderTop: '-1px solid white',
         
         
         
@@ -44,14 +44,14 @@ export function NavBar(){
     const skillsStyle = {
         opacity : `${opacitySkills}`,
         borderBottom : `${borderSkills}`,
-        borderTop: 'none',
+        borderTop: '-1px solid white',
         
         
     };
     const contactStyle = {
         opacity : `${opacityContact}`,
         borderBottom : `${borderContact}`,
-        borderTop: 'none',
+        borderTop: '-1px solid white',
         
         
         
