@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import calculator from './calculator.jpg';
 import sovata from './szovatafinal2.jpg';
-import React from 'react';
+
 
 import './Projects.css';
 
