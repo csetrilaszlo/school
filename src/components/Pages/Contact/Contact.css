@@ -169,9 +169,9 @@ textarea {
     font-size: 16px;
     letter-spacing: 1px;
 }
-.submit-button:hover{
+/* .submit-button:hover{
     opacity: 80%;
-}
+} */
 
 .submit-disabled {
     padding: 10px 30px;
