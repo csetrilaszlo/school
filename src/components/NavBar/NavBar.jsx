@@ -10,23 +10,23 @@ export function NavBar(){
     const handleClick = () => setClick(!click);
 
     const [opacity, setOpacity] = useState('100%');
-    const [border, setBorder] = useState('none');
+    
 
     const homeStyle = {
         opacity : `${setOpacity}`,
-        border : `${setBorder}`,
+        
     };
     const projectsStyle = {
         opacity : `${setOpacity}`,
-        border : `${setBorder}`,
+        
     };
     const skillsStyle = {
         opacity : `${setOpacity}`,
-        border : `${setBorder}`,
+        
     };
     const contactStyle = {
         opacity : `${setOpacity}`,
-        border : `${setBorder}`,
+        
     };
     const resumeStyle = {
         opacity : `${setOpacity}`,
@@ -47,14 +47,8 @@ export function NavBar(){
                 <li className='nav-item'>
                         <NavLink exact to= '/' activeClassName='active' className='nav-links' onClick={handleClick} 
                         style={homeStyle}
-                        onMouseEnter={function homeStyle(){
-                           setOpacity('80%');
-                           setBorder('1px solid black');
-                        } }
-                        onMouseLeave={function homeLeave(){
-                            setOpacity('100%');
-                           setBorder('none');
-                        }}
+                        onMouseEnter={() => setOpacity("80%")}
+                        onMouseLeave={() => setOpacity("100%")}
                         >
                             Home
                     </NavLink>
@@ -62,42 +56,24 @@ export function NavBar(){
                     <li className='nav-item'>
                         <NavLink exact to= '/projects' activeClassName='active' className='nav-links' onClick={handleClick}
                          style={projectsStyle}
-                         onMouseEnter={function projectStyle(){
-                            setOpacity('80%');
-                            setBorder('1px solid black');
-                         } }
-                         onMouseLeave={function projectLeave(){
-                            setOpacity('100%');
-                            setBorder('none');
-                         }}>
+                         onMouseEnter={() => setOpacity("80%")}
+                         onMouseLeave={() => setOpacity("100%")}>
                             Projects
                     </NavLink>
                     </li>
                     <li className='nav-item'>
                         <NavLink exact to= '/skills' activeClassName='active' className='nav-links' onClick={handleClick}
                          style={skillsStyle}
-                         onMouseEnter={function skillsStyle(){
-                            setOpacity('80%');
-                            setBorder('1px solid black');
-                         } }
-                         onMouseLeave={function skillsLeave(){
-                            setOpacity('100%');
-                            setBorder('none');
-                         }}>
+                         onMouseEnter={() => setOpacity("80%")}
+                         onMouseLeave={() => setOpacity("100%")}>
                             Skills
                     </NavLink>
                     </li>
                     <li className='nav-item'>
                         <NavLink exact to= '/contact' activeClassName='active' className='nav-links' onClick={handleClick}
                          style={contactStyle}
-                         onMouseEnter={function contactStyle(){
-                            setOpacity('80%');
-                            setBorder('1px solid black');
-                         } }
-                         onMouseLeave={function contactLeave(){
-                            setOpacity('100%');
-                            setBorder('none');
-                         }}>
+                         onMouseEnter={() => setOpacity("80%")}
+                         onMouseLeave={() => setOpacity("100%")}>
                             Contact
                     </NavLink>
                     </li>
