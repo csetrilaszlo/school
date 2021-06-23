@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
 import patternpad4 from './patternpad4.svg';
 import patternpad44 from './patternpad44.svg';
 import patternpad444 from './patternpad444.svg';
 import scoalainformala from './scoalainformala.png';
 import babes from './babes.png';
+import 'aos/dist/aos.css';
 
 import './Skills.css';
 
 export function Skills() {
+    useEffect(() => {
+        Aos.init({duration: 2000});
+      }, []);
     return(
         <div className='big-skills-div'>
            <h5>Skills</h5> 
@@ -62,7 +67,7 @@ export function Skills() {
         </div>
 
         <h5 id='education-h5'>Education</h5>
-            <div className='education-section'>
+            <div className='education-section' data-aos='fade-up'>
                 <div className='education-div'>
                     <div className='education-card'>
                             <img src={babes} className='education-img' alt='babes' />

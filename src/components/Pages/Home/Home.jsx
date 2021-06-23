@@ -13,13 +13,14 @@ import './Home.css';
 
 
 export class Home extends Component {
+    
     handleMouseEnter(e){
         e.target.style.opacity = '80%';
     }
     handleMouseLeave(e){
         e.target.style.opacity = '100%';
     }
-    
+
     render(){
 
     return(

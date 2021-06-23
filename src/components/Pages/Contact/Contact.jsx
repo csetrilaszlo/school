@@ -1,26 +1,55 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import Aos from 'aos';
+import emailjs, { init } from 'emailjs-com';
 import patternpadcontact from './patternpadcontact.svg';
 import patternpad9 from './patternpad9.svg';
 import phone from './phone.svg';
 import github from '../Home/github.svg';
 import linkedin from '../Home/linkedin.svg';
 import mail from '../Home/email.svg';
+import 'aos/dist/aos.css';
 
 
 import './Contact.css';
 export function Contact() {
-    const [name, setname] = useState('');
-    const [email, setemail] = useState('');
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  }, []);
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('csetrilaszlo', 'template_af7kh0h', e.target, 'user_ZCqc68Il9bOSKh6MAg8Dm')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    e.target.reset();
+  }
+
+    const [user_name, setname] = useState('');
+    const [user_email, setemail] = useState('');
     const [message, setmessage] = useState('');
     const [opacity, setOpacity] = useState('100%');
 
     const appStyles = {
-      opacity: `S{opacity}`,
+      opacity: `${opacity}`,
     }
 
     function SubmitButton(){
-        if (name && email && message){
-          return <a href='mailto:csetrilaszlo@gmail.com' className='submit-button'>Submit</a>
+        if (user_name && user_email && message){
+          return <input type='submit' className='submit-button' value='Submit' 
+          style={appStyles}
+          onMouseEnter={() => setOpacity("80%")}
+          onMouseLeave={() => setOpacity("100%")}
+        //   onClick={function empty(){
+        //     setname("");
+        //     setemail('');
+        //     setmessage('');
+            
+        // } }
+          />
         } else {
           return <a  className='submit-disabled' disabled>Submit</a>
         };
@@ -68,26 +97,48 @@ export function Contact() {
 
         
     </div>
-    <div className='contact-big-div'>
-        <div className='input-section'>
-            <p>Get in Touch</p>
+    
+    <div className='contact-section' id='contact-second' >
+        <div className='input-section'  className='contact=form' >
+            <p id='get-in'>Get in Touch</p>
+            <form className="contact-form" onSubmit={sendEmail}> 
+              
+                <input type="text" name="user_name" id='name-item' placeholder='*Name' required className='input-item' value={user_name} onChange={ e => setname(e.target.value)}/>
+              
+              
+                <input type="email" name="user_email"   placeholder='*Email' required className='input-item' value={user_email} onChange={ e => setemail(e.target.value)}/>
+              
+              <div>
+                <textarea name="message" placeholder='*Message'  value={message} onChange={ e => setmessage(e.target.value)}/>
+              </div> 
+                <div>
+                  <SubmitButton />
+                </div>
+                
+            </form>
+                
             
-                <input type='text' placeholder='*Name' id='name-item' required className='input-item' value={name} onChange={ e => setname(e.target.value)}/>
-                <input type='text'  placeholder='*Email' required className='input-item' value={email} onChange={ e => setemail(e.target.value)}/>
-                <textarea required placeholder='*Message' value={message} onChange={ e => setmessage(e.target.value)}></textarea>
-                <SubmitButton 
-                 style={appStyles}
-                 onMouseEnter={() => setOpacity("80%")}
-                 onMouseLeave={() => setOpacity("100%")}
-                />
-            {/* <a href='mailto:csetrilaszlo@gmail.com' className='submit-button'>Submit</a> */}
         </div>
-        <div className='contact-pattern-image' id='input-image'>
+        <div className='contact-pattern-image'  id='input-image'>
             <img src={patternpadcontact} alt="pattern" className='patternpad9' />
         </div>
         
     </div>
         
+    
+
+
+
+
+                {/* <input type='text'  name='user_name' placeholder='*Name' id='name-item' required className='input-item' value={user_name} onChange={ e => setname(e.target.value)}/>
+                <input type='email' name='user_email' placeholder='*Email' required className='input-item' value={user_email} onChange={ e => setemail(e.target.value)}/>
+                <textarea required name='message' placeholder='*Message'  value={message} onChange={ e => setmessage(e.target.value)}></textarea>
+                
+                <SubmitButton /> */}
+
+
+
+
         
         <footer>
             <p>© Csetri Laszlo 2021</p>
