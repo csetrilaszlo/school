@@ -129,6 +129,14 @@ footer {
 }
 
 
+#sent {
+    visibility: hidden;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+    padding:10px 20px;
+    margin-bottom: 10px;
+}
 #get-in {
     color: black;
     font-weight: bold;

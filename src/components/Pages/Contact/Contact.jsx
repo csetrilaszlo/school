@@ -32,9 +32,14 @@ export function Contact() {
     const [user_email, setemail] = useState('');
     const [message, setmessage] = useState('');
     const [opacity, setOpacity] = useState('100%');
+    const [visibility, setVisibility] = useState('hidden');
 
     const appStyles = {
       opacity: `${opacity}`,
+    }
+
+    const visibilStyle = {
+      visibility : `${visibility}`
     }
 
     function SubmitButton(){
@@ -43,12 +48,13 @@ export function Contact() {
           style={appStyles}
           onMouseEnter={() => setOpacity("80%")}
           onMouseLeave={() => setOpacity("100%")}
-        //   onClick={function empty(){
-        //     setname("");
-        //     setemail('');
-        //     setmessage('');
+          // onClick={function empty(){
+          //   setname("");
+          //   setemail('');
+          //   setmessage('');
             
         // } }
+        // onClick={() => setVisibility("visible")}
           />
         } else {
           return <a  className='submit-disabled' disabled>Submit</a>
@@ -114,7 +120,7 @@ export function Contact() {
                 <div>
                   <SubmitButton />
                 </div>
-                
+                <p id='sent' style={visibilStyle}></p>
             </form>
                 
             
