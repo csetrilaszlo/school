@@ -36,7 +36,7 @@ export class Home extends Component {
                 </div>
                    
                 <p className='text-paragraph'>I'm a software developer passionate about Front-End Development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
-                <a href='../Contact/Contact' 
+                <a href='../#/Contact' 
                 onMouseEnter={this.handleMouseEnter}
                 onMouseLeave={this.handleMouseLeave}
                 className='btn btn-lg' id='get-in-touch'>
