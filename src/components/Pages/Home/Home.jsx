@@ -1,4 +1,5 @@
 import React, {useEffect, Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import pattern16 from './patternpad16.svg';
 import email from './email.svg';
 import github from './github.svg';
@@ -36,13 +37,12 @@ export class Home extends Component {
                 </div>
                    
                 <p className='text-paragraph'>I'm a software developer passionate about Front-End Development, design and everything in between. I consider work an ongoing education and I'm always looking for opportunities to work with those who are willing to share their knowledge as much as I want to learn.</p>
-                <a href='../#/Contact' 
+                
+                <NavLink exact to='/contact' 
                 onMouseEnter={this.handleMouseEnter}
                 onMouseLeave={this.handleMouseLeave}
                 className='btn btn-lg' id='get-in-touch'>
-                    Get in Touch
-                    <i className='fas fa arrow-right'></i>
-                </a>
+                Get in Touch</NavLink>
             </div>
             <div>
                 <img src={pattern16} alt='pattern' className='pattern-big' id='big-pattern'/>
@@ -72,11 +72,13 @@ export class Home extends Component {
                     job", it`s offered an engaging challenge to continually
                     learn and improve my skills in creating high-quality
                     software.</p>
-                <a href='../contact/contact' id='get-in-touch'
-                
+
+                    <NavLink exact to='/contact' 
                 onMouseEnter={this.handleMouseEnter}
                 onMouseLeave={this.handleMouseLeave}
-                className='btn btn-lg' >Get in Touch</a>
+                className='btn btn-lg' id='get-in-touch'>
+                Get in Touch</NavLink>
+                
                 </div>
                 <div>
                 <img src={me} alt='Csetri Laszlo' className='me'/>
@@ -98,10 +100,15 @@ export class Home extends Component {
                     <div className='hobbies-div'>
                         <h5>Hobbies</h5>
                         <p className='text-paragraph' id='text-hobbies'>I'm a very curios person, my hobbies are related to travelling, exploring new cities, discovering new places,new cultures. I believe travelling make people more open minded. I also enjoy reading books, i think it`s a good way to learn new things.</p>
-                        <a href='../contact/contact' id='get-in-touch' 
+                        <NavLink exact to='/contact' 
                         onMouseEnter={this.handleMouseEnter}
                         onMouseLeave={this.handleMouseLeave}
-                        className='btn btn-lg' >Get in Touch</a>
+                        className='btn btn-lg' id='get-in-touch'>
+                        Get in Touch</NavLink>
+                        {/* <a href='../contact/contact' id='get-in-touch' 
+                        onMouseEnter={this.handleMouseEnter}
+                        onMouseLeave={this.handleMouseLeave}
+                        className='btn btn-lg' >Get in Touch</a> */}
                     </div>
                 </div>
             </div>
