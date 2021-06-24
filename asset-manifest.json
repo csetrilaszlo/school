@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/school/static/css/main.e145b9f8.chunk.css",
-    "main.js": "/school/static/js/main.eb897210.chunk.js",
-    "main.js.map": "/school/static/js/main.eb897210.chunk.js.map",
-    "runtime-main.js": "/school/static/js/runtime-main.8e64036c.js",
-    "runtime-main.js.map": "/school/static/js/runtime-main.8e64036c.js.map",
-    "static/js/2.d766710c.chunk.js": "/school/static/js/2.d766710c.chunk.js",
-    "static/js/2.d766710c.chunk.js.map": "/school/static/js/2.d766710c.chunk.js.map",
-    "static/js/3.fa03d9fd.chunk.js": "/school/static/js/3.fa03d9fd.chunk.js",
-    "static/js/3.fa03d9fd.chunk.js.map": "/school/static/js/3.fa03d9fd.chunk.js.map",
+    "main.css": "/school/static/css/main.7e0859ec.chunk.css",
+    "main.js": "/school/static/js/main.8324fb05.chunk.js",
+    "main.js.map": "/school/static/js/main.8324fb05.chunk.js.map",
+    "runtime-main.js": "/school/static/js/runtime-main.db0b4476.js",
+    "runtime-main.js.map": "/school/static/js/runtime-main.db0b4476.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/school/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.460c8527.chunk.js": "/school/static/js/2.460c8527.chunk.js",
+    "static/js/2.460c8527.chunk.js.map": "/school/static/js/2.460c8527.chunk.js.map",
+    "static/js/3.bee1dacc.chunk.js": "/school/static/js/3.bee1dacc.chunk.js",
+    "static/js/3.bee1dacc.chunk.js.map": "/school/static/js/3.bee1dacc.chunk.js.map",
     "index.html": "/school/index.html",
-    "static/css/main.e145b9f8.chunk.css.map": "/school/static/css/main.e145b9f8.chunk.css.map",
-    "static/js/2.d766710c.chunk.js.LICENSE.txt": "/school/static/js/2.d766710c.chunk.js.LICENSE.txt",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/school/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.7e0859ec.chunk.css.map": "/school/static/css/main.7e0859ec.chunk.css.map",
+    "static/js/2.460c8527.chunk.js.LICENSE.txt": "/school/static/js/2.460c8527.chunk.js.LICENSE.txt",
     "static/media/CsetriLaszloCV.0ea7a31c.pdf": "/school/static/media/CsetriLaszloCV.0ea7a31c.pdf",
     "static/media/babes.07fd94b5.png": "/school/static/media/babes.07fd94b5.png",
     "static/media/calculator.447f67a4.jpg": "/school/static/media/calculator.447f67a4.jpg",
@@ -32,9 +34,10 @@
     "static/media/szovatafinal2.49b5bd56.jpg": "/school/static/media/szovatafinal2.49b5bd56.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e64036c.js",
-    "static/js/2.d766710c.chunk.js",
-    "static/css/main.e145b9f8.chunk.css",
-    "static/js/main.eb897210.chunk.js"
+    "static/js/runtime-main.db0b4476.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.460c8527.chunk.js",
+    "static/css/main.7e0859ec.chunk.css",
+    "static/js/main.8324fb05.chunk.js"
   ]
 }
