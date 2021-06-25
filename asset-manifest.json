@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/school/static/css/main.7e0859ec.chunk.css",
-    "main.js": "/school/static/js/main.8324fb05.chunk.js",
-    "main.js.map": "/school/static/js/main.8324fb05.chunk.js.map",
+    "main.css": "/school/static/css/main.77ccd212.chunk.css",
+    "main.js": "/school/static/js/main.54e0839b.chunk.js",
+    "main.js.map": "/school/static/js/main.54e0839b.chunk.js.map",
     "runtime-main.js": "/school/static/js/runtime-main.db0b4476.js",
     "runtime-main.js.map": "/school/static/js/runtime-main.db0b4476.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/school/static/css/2.7fc9bc2b.chunk.css",
@@ -12,13 +12,15 @@
     "static/js/3.bee1dacc.chunk.js.map": "/school/static/js/3.bee1dacc.chunk.js.map",
     "index.html": "/school/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/school/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.7e0859ec.chunk.css.map": "/school/static/css/main.7e0859ec.chunk.css.map",
+    "static/css/main.77ccd212.chunk.css.map": "/school/static/css/main.77ccd212.chunk.css.map",
     "static/js/2.460c8527.chunk.js.LICENSE.txt": "/school/static/js/2.460c8527.chunk.js.LICENSE.txt",
     "static/media/CsetriLaszloCV.0ea7a31c.pdf": "/school/static/media/CsetriLaszloCV.0ea7a31c.pdf",
     "static/media/babes.07fd94b5.png": "/school/static/media/babes.07fd94b5.png",
     "static/media/calculator.447f67a4.jpg": "/school/static/media/calculator.447f67a4.jpg",
+    "static/media/dogsapp.98762f0c.jpg": "/school/static/media/dogsapp.98762f0c.jpg",
     "static/media/email.c039ffd4.svg": "/school/static/media/email.c039ffd4.svg",
     "static/media/github.1be3365d.svg": "/school/static/media/github.1be3365d.svg",
+    "static/media/imovies.fd4f3302.jpg": "/school/static/media/imovies.fd4f3302.jpg",
     "static/media/linkedin.ed1324b3.svg": "/school/static/media/linkedin.ed1324b3.svg",
     "static/media/logo.0adc92f1.svg": "/school/static/media/logo.0adc92f1.svg",
     "static/media/me.5c38ee59.jpg": "/school/static/media/me.5c38ee59.jpg",
@@ -31,13 +33,15 @@
     "static/media/patternpadcontact.2ef373b1.svg": "/school/static/media/patternpadcontact.2ef373b1.svg",
     "static/media/phone.73370ed6.svg": "/school/static/media/phone.73370ed6.svg",
     "static/media/scoalainformala.c83325c1.png": "/school/static/media/scoalainformala.c83325c1.png",
+    "static/media/starship.41c52c60.jpg": "/school/static/media/starship.41c52c60.jpg",
+    "static/media/store.f42173d0.jpg": "/school/static/media/store.f42173d0.jpg",
     "static/media/szovatafinal2.49b5bd56.jpg": "/school/static/media/szovatafinal2.49b5bd56.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.db0b4476.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.460c8527.chunk.js",
-    "static/css/main.7e0859ec.chunk.css",
-    "static/js/main.8324fb05.chunk.js"
+    "static/css/main.77ccd212.chunk.css",
+    "static/js/main.54e0839b.chunk.js"
   ]
 }
