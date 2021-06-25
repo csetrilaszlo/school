@@ -110,7 +110,7 @@
 .project-footer {
     width: 100%;
     position: absolute;
-    top: 1000px;
+    top: 3400px;
     
 }
 
@@ -118,6 +118,7 @@
 @media screen and (max-width: 960px) {
     .project-footer {
     width: 100%;
+    top: 3600px;
 }
     
     .project-grid{
